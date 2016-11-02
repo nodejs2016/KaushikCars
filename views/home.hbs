@@ -1,0 +1,16 @@
+<h1>This is home page</h1>
+<h3>Following are the available list of Cars today</h3>
+<table border="0">
+<tr>
+	<th>Name</th>
+	<th>Model</th>
+	<th>Color</th>
+</tr>
+  {{#each cars}}
+  <tr>
+ 	<td><a href="/feature?id={{id}}">{{name}}</a></td>
+  	<td>{{model}}</td>
+  	<td>{{color}}</td>
+  	</tr>
+  {{/each}}
+</table>
