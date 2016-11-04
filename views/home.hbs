@@ -1,5 +1,15 @@
 <h1>This is home page</h1>
 <h3>Following are the available list of Cars today</h3>
+
+<div>
+<div style="color:red"> {{#if errors}}{{errors.error}}{{/if}}</div>
+	<form action="/authenticate" method="get">
+		Username <input type="text" name="username" placeholder="Enter username here"/><br/>
+		Password <input type="password" name="password" placeholder="Enter password here"/><br/>
+		<input type="submit" value="Login"/>
+	</form>
+</div>
+
 <table border="0">
 <tr>
 	<th>Name</th>

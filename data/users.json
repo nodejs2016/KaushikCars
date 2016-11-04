@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "userId": "1001",
+      "username": "akumar",
+      "password": "vyang",
+      "name": "Amit Kumar",
+      "city": "Natick",
+      "country": "USA"
+    },
+    {
+      "userId": "1002",
+      "username": "akshu",
+      "password": "akshug",
+      "name": "Akshit Kaushik",
+      "city": "Boston",
+      "country": "USA"
+    },
+    {
+      "userId": "1003",
+      "username": "vyan",
+      "password": "kaushik",
+      "name": "Vyan Kaushik",
+      "city": "Lexington",
+      "country": "USA"
+    }
+  ]
+}
